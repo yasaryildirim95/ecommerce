@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+}
+
+.container ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container li {
+  display: flex;
+}
+
+h1 {
+  padding: 20px;
+}

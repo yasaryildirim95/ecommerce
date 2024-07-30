@@ -1,0 +1,30 @@
+.popup {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.99);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  z-index: 1000;
+  left: 100%;
+  transition: left 0.5s ease;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.popupContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.popupContent > div {
+  margin-right: 20px;
+}
+
+.totalPrice {
+  margin-top: auto;
+  font-weight: bold;
+  color: white;
+}
